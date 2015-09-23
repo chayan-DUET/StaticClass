@@ -15,7 +15,7 @@ public class Static {
      */
     public static StudentInfo getinfo(String name,int id,Double cgpa)
     {
-        name=name.concat("majumdar");
+        name=name.concat(" majumdar");
     
         return (new StudentInfo(name, id, cgpa));
     }
